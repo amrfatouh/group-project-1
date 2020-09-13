@@ -1,7 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #404659;
-    height: 1000px;
 }
 
 .container {
@@ -70,10 +69,52 @@ body {
 
 .main-content h1 {
     font-size: 40px;
+    color: #FFF;
 }
 
 .container .left {
     flex: 1;
+}
+
+.container .main-content .left h1, h4 {
+    text-align: justify;
+    line-height: 1.5;
+    font-weight: normal;
+}
+
+.container .main-content .left h4 {
+    color: #7C828F;
+    font-family: sans-serif;
+}
+
+.container .main-content .left #learn-more {
+    color: #3EA8CD;
+    line-height: 1.7;
+    letter-spacing: 1.3;
+    text-transform: Uppercase;
+    font-weight: bold;
+}
+
+.container .main-content .left .play-btn {
+    background: linear-gradient(to right, #973E9F, #55AAD2);
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.container .main-content .left .fas.fa-play {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #404659;
+    color: #fff;
 }
 
 .container .right {
@@ -82,4 +123,76 @@ body {
 
 .container .right img {
     width: 100%;
+}
+
+.container .right {
+    flex: 1;
+}
+
+.container .right img {
+    width: 100%;
+}
+
+footer {
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+footer ul {
+    background: linear-gradient(to right, #973E9F, #55AAD2);
+    padding: 40px 35px;
+    width: 55%;
+    display: inline-block;
+}
+
+footer ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+    text-align: center;
+}
+
+footer ul li i {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+footer ul li span {
+    display: block;
+    font-size: 15px;
+    letter-spacing: -0.5px;
+}
+
+.socials {
+    position: absolute;
+    text-align: center;
+    color: #7C828F;
+    bottom: 100px;
+    right: 100px;
+}
+
+.socials i {
+    font-size: 25px;
+    /* margin-top: -50px;
+    margin-left: -100px; */
+}
+
+.socials span {
+    border-radius: 6px;
+    border: 2px solid #838792;
+    display: block;
+    width: fit-content;
+    padding-right: 2px;
+    padding-left: 2px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.socials span:last-child {
+    border-radius: 50%;
+    padding: 1px;
 }
